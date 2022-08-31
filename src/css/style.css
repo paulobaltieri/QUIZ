@@ -1,0 +1,36 @@
+.cabecalho {
+    background-color: #0d6efd;
+    color: white;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.titleQuiz {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+.titleQuestion {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.questions {
+    font-size: 16px;
+    color: white;
+    margin-left: 20px;
+}
+
+.text-center {
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+}
