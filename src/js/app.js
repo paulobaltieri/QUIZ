@@ -10,6 +10,13 @@ form.addEventListener('submit', event => {
         form.inputQuestion3.value,
         form.inputQuestion4.value,
     ]
-    console.log(userQuestions)
+
+    let score = 0
+
+    userQuestions.forEach((valor, index) => {
+        if (valor === correctQuestion[index]) {
+            console.log(`Acertou ${valor[index]}`)
+        }
+    })
 })
 
