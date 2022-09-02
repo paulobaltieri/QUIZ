@@ -15,47 +15,53 @@
     <div class="cabecalho">
         <label class="titleQuiz">QUIZ</label>
     </div>
-    <div class="titleQuestion">
-        <label>Você consegue acertar todas as perguntas?</label>
+    <div class="scoreQuiz d-none">
+        <label class="titleQuiz">Você acertou <Span class="myScore">0%</Span> das perguntas</label>
     </div>
+    <div class="bordaTitle">
+        <div class="titleQuestion">
+            <label>Você consegue acertar todas as perguntas?</label>
+        </div>
+    </div>
+
     <form class="questions">
         <div class="form-check">
             <label>01 - Qual o planeta mais próximo da terra?</label><br>
-            <input type="radio" name="inputQuestion1" value="b" checked>
+            <input type="radio" name="inputQuestion1" value="A" checked>
             <label class="form-check-label">
-                Vênus
+                Mercúrio <label class="res1"></label>
+            </label><br>
+            <input type="radio" name="inputQuestion1" value="b">
+            <label class="form-check-label">
+                Vênus <label class="res1"></label>
             </label><br>
             <input type="radio" name="inputQuestion1" value="A">
             <label class="form-check-label">
-                Mercúrio
+                Urano <label class="res1"></label>
             </label><br>
             <input type="radio" name="inputQuestion1" value="A">
             <label class="form-check-label">
-                Urano
-            </label><br>
-            <input type="radio" name="inputQuestion1" value="A">
-            <label class="form-check-label">
-                Netuno
+                Netuno <label class="res1"></label>
             </label>
         </div>
         <p></p>
         <div class="form-check">
             <label>02 - Qual o maior planeta do sistema solar?</label><br>
-            <input type="radio" name="inputQuestion2" value="b" checked>
+            <input type="radio" name="inputQuestion2" value="A" checked>
             <label class="form-check-label">
-                Júpiter
+                Urano <label class="res"></label>
             </label><br>
             <input type="radio" name="inputQuestion2" value="A">
             <label class="form-check-label">
-                Mercúrio
+                Mercúrio <label class="res2"></label>
+            </label><br>
+            <input type="radio" name="inputQuestion2" value="b">
+            <label class="form-check-label">
+                Júpiter <label class="res2"></label>
             </label><br>
             <input type="radio" name="inputQuestion2" value="A">
             <label class="form-check-label">
-                Urano
-            </label><br>
-            <input type="radio" name="inputQuestion2" value="A">
-            <label class="form-check-label">
-                Netuno
+                Netuno <label class="res2"></label>
             </label>
         </div>
         <p></p>
