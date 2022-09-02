@@ -21,6 +21,10 @@ form.addEventListener('submit', event => {
             console.log(`ERROU ${valor}`)
         }
     })
+    if (score === 100) {
+        const audio = new Audio('src/audio/clap.mp3')
+        audio.play()
+    }
     scoreQuiz.classList.remove('d-none')
     scoreQuiz.querySelector('span').textContent = `${score}%`
 
